@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "2026-06-20-lc20",
+    "problemId": 20,
+    "date": "2026-06-20",
+    "dateBasis": "UTC conversation date",
+    "source": "practice discussion",
+    "assistance": "hint",
+    "lesson": "Bracket matching dictionary; stack push/pop.",
+    "outcome": "completion_unknown",
+    "mastery": null
+  },
+  {
+    "id": "2026-07-25-lc875",
+    "problemId": 875,
+    "date": "2026-07-25",
+    "dateBasis": "UTC conversation date",
+    "source": "practice discussion",
+    "assistance": "hint",
+    "lesson": "Ceiling division (pile + speed - 1) // speed; monotonic feasibility.",
+    "outcome": "completion_unknown",
+    "mastery": null
+  },
+  {
+    "id": "2026-11-10-lc105",
+    "problemId": 105,
+    "date": "2026-11-10",
+    "dateBasis": "UTC conversation date",
+    "source": "practice discussion",
+    "assistance": "hint",
+    "lesson": "Incorrect left recursion bound; repeated search/slicing can be quadratic.",
+    "outcome": "completion_unknown",
+    "mastery": null
+  },
+  {
+    "id": "2026-11-20-lc124",
+    "problemId": 124,
+    "date": "2026-11-20",
+    "dateBasis": "UTC conversation date",
+    "source": "practice discussion",
+    "assistance": "hint",
+    "lesson": "Negative infinity initialization; clamp negative gains; global two-branch sum vs one-branch return.",
+    "outcome": "corrected_code_synced",
+    "mastery": null
+  }
+]

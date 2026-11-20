@@ -1,3 +1,3 @@
 # Personal mistakes
 
-No verified personal entries migrated yet. Add evidence from practice sessions, not inferred mastery.
+- LC 875: ceiling division per pile, not floor division; binary search minimum feasible speed. Completion not verified.

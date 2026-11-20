@@ -1,3 +1,3 @@
 # Personal mistakes
 
-No verified personal entries migrated yet. Add evidence from practice sessions, not inferred mastery.
+- LC 20: establish the closing-to-opening bracket map; check stack emptiness before popping. Completion not verified.

@@ -71,6 +71,15 @@ def render(rows, aliases, groups, previous):
                 submissionCount=sum(map(len, groups.values())),
                 problems=[dict(slug=s, submissionCount=len(groups[s]), submissions=groups[s]) for s in sorted(groups)])
     output = {"data/submissions.json": dump(snap)}
+    attempts = read_json("data/attempts.json")
+    assessments = read_json("data/assessments.json")
+    practice = defaultdict(int)
+    mastery = {}
+    for a in attempts:
+        practice[a["problemId"]] += 1
+    for a in sorted(assessments, key=lambda a: a["date"]):
+        if a["mastery"] is not None:
+            mastery[a["problemId"]] = a["mastery"]
     by_folder = defaultdict(list)
     counts = {}
     for row in rows:
@@ -84,7 +93,16 @@ def render(rows, aliases, groups, previous):
                  syncedSlugs=len(groups), unmappedSlugs=unknown,
                  categories=[dict(category=rs[0]["category"], total=len(rs), covered=sum(counts[r["id"]] > 0 for r in rs),
                                   submissions=sum(counts[r["id"]] for r in rs)) for rs in by_folder.values()])
+    stats["documentedPracticeSessions"] = len(attempts)
+    stats["assessedProblems"] = len(mastery)
     output["data/stats.json"] = dump(stats)
+    buf = io.StringIO()
+    writer = csv.writer(buf, lineterminator="\n")
+    writer.writerow(["problem_id","title","category","difficulty","submission_count","documented_practice_count","historical_attempts","familiarity"])
+    for r in rows:
+        i = r["id"]
+        writer.writerow([i,r["title"],r["category"],r["difficulty"],counts[i],practice[i],"",mastery.get(i,"")])
+    output["progress.csv"] = buf.getvalue()
     for folder, rs in by_folder.items():
         path = folder + "/problems.md"
         existing = (ROOT / path).read_text(encoding="utf-8")
@@ -94,12 +112,12 @@ def render(rows, aliases, groups, previous):
             if len(cells) == 7 and cells[1].isdigit():
                 familiarity[int(cells[1])] = cells[5]
         lines = [f'# {rs[0]["category"]} — {sum(counts[r["id"]] > 0 for r in rs)}/{len(rs)} synced',
-                 "", "Counts reflect synced files, not independent attempts or acceptance. Familiarity is manually assessed.",
-                 "", "| LC | Problem | Difficulty | Synced files | Familiarity |", "|---|---|---|---:|---|"]
+                 "", "Practice counts are documented sessions only; historical totals are unknown. Familiarity comes from assessments.",
+                 "", "| LC | Problem | Difficulty | Synced files | Documented practice | Familiarity |", "|---|---|---|---:|---:|---|"]
         for r in rs:
             slugs = mapped.get(r["id"], [])
             links = ", ".join(f'[{len(groups[s])}](../../{quote(TOPIC)}/{quote(s)})' for s in slugs) or "0"
-            lines.append(f'| {r["id"]} | [{r["title"]}]({r["url"]}) | {r["difficulty"]} | {links} | {familiarity.get(r["id"], "—")} |')
+            lines.append(f'| {r["id"]} | [{r["title"]}]({r["url"]}) | {r["difficulty"]} | {links} | {practice[r["id"]]} | {mastery.get(r["id"], "—")} |')
         output[path] = "\n".join(lines) + "\n"
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     start, end = "<!-- tracker-stats:start -->", "<!-- tracker-stats:end -->"

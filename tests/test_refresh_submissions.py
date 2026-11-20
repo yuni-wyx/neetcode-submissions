@@ -25,5 +25,15 @@ class MappingTests(unittest.TestCase):
         self.assertEqual(unknown, [])
         self.assertEqual(len(rows), 150)
 
+class PracticeTests(unittest.TestCase):
+    def test_evidence_integrity(self):
+        ids = {r["id"] for r in refresh.read_json("data/problems.json")}
+        attempts = refresh.read_json("data/attempts.json")
+        assessments = refresh.read_json("data/assessments.json")
+        self.assertEqual(len(attempts), len({a["id"] for a in attempts}))
+        for a in attempts + assessments:
+            self.assertIn(a["problemId"], ids)
+            self.assertTrue(a["mastery"] is None or 0 <= a["mastery"] <= 5)
+
 if __name__ == "__main__":
     unittest.main()

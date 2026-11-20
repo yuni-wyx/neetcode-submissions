@@ -7,6 +7,8 @@ on:
       - 'scripts/refresh_submissions.py'
       - 'tests/test_refresh_submissions.py'
       - 'data/slug-aliases.json'
+      - 'data/attempts.json'
+      - 'data/assessments.json'
       - '.github/workflows/refresh-submissions.yml'
   workflow_dispatch:
   schedule:
@@ -37,7 +39,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           for attempt in 1 2 3; do
-            git add README.md data/problems.json data/submissions.json data/stats.json patterns/*/problems.md
+            git add progress.csv README.md data/problems.json data/submissions.json data/stats.json patterns/*/problems.md
             if git diff --cached --quiet; then exit 0; fi
             git commit -m 'chore: refresh submission statistics'
             if git push origin HEAD:main; then exit 0; fi
