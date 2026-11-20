@@ -77,7 +77,7 @@ def render(rows, aliases, groups, previous):
     mastery = {}
     for a in attempts:
         practice[a["problemId"]] += 1
-    for a in sorted(assessments, key=lambda a: a["date"]):
+    for a in sorted(assessments, key=lambda a: a["date"] or ""):
         if a["mastery"] is not None:
             mastery[a["problemId"]] = a["mastery"]
     by_folder = defaultdict(list)

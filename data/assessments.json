@@ -1,51 +1,9 @@
 [
   {
-    "problemId": 217,
-    "date": "2026-06-06",
-    "kind": "completion_report",
-    "mastery": null,
-    "note": "Reported completed; independent performance not established."
-  },
-  {
-    "problemId": 242,
-    "date": "2026-06-06",
-    "kind": "completion_report",
-    "mastery": null,
-    "note": "Reported completed; independent performance not established."
-  },
-  {
-    "problemId": 1,
-    "date": "2026-06-06",
-    "kind": "completion_report",
-    "mastery": null,
-    "note": "Reported completed; independent performance not established."
-  },
-  {
-    "problemId": 49,
-    "date": "2026-06-06",
-    "kind": "completion_report",
-    "mastery": null,
-    "note": "Reported completed; independent performance not established."
-  },
-  {
-    "problemId": 347,
-    "date": "2026-06-06",
-    "kind": "completion_report",
-    "mastery": null,
-    "note": "Reported completed; independent performance not established."
-  },
-  {
-    "problemId": 271,
-    "date": "2026-06-06",
-    "kind": "completion_report",
-    "mastery": null,
-    "note": "Reported completed; independent performance not established."
-  },
-  {
     "problemId": 124,
-    "date": "2026-11-20",
+    "date": null,
     "kind": "observed_assisted_outcome",
     "mastery": 2,
-    "note": "Corrected code synced after hints; level reflects this session, not independent mastery."
+    "note": "Corrected code synced after hints; not independent mastery."
   }
 ]
