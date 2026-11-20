@@ -1,0 +1,52 @@
+name: Deploy dashboard to GitHub Pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dashboard/**'
+      - 'data/**'
+      - 'patterns/**'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_run:
+    workflows: ['Refresh submission tracker']
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: dashboard-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-audit --no-fund
+        working-directory: dashboard
+      - run: npm test
+        working-directory: dashboard
+      - run: npm run build
+        working-directory: dashboard
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard/dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
