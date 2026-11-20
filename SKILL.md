@@ -1,0 +1,2 @@
+# Practice logging
+One attempt is one distinct practice session, not each debug iteration. Record problem ID, date, outcome, hints, mistakes, time and space complexity if known. Unknown historical counts remain null. Familiarity: 0 unpracticed, 1 solution needed, 2 hints needed, 3 independent with debugging, 4 independent with explanation, 5 timed independent with follow-ups. Never infer acceptance from code alone.

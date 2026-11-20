@@ -1,0 +1,1091 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "yuni-wyx/neetcode-submissions",
+  "sourceRef": "main",
+  "sourceCommit": "9205db658196c2552fb531207b83edb8bb22b3b6",
+  "sourceHeadTimestamp": "2026-11-20T05:08:32Z",
+  "uniqueProblems": 61,
+  "submissionCount": 102,
+  "problems": [
+    {
+      "slug": "add-two-numbers",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/add-two-numbers/submission-0.py",
+          "language": "py",
+          "blobSha": "19701c07f7b8301550602339c8a2671b4902eb0e",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "anagram-groups",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/anagram-groups/submission-5.py",
+          "language": "py",
+          "blobSha": "dc4f9596ca8f343c39c3f9de11ec325a1cb67a08",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "balanced-binary-tree",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/balanced-binary-tree/submission-0.py",
+          "language": "py",
+          "blobSha": "eef78100f8640954293b2aada4374c0ae7e925bd",
+          "syncCommit": "77b8eed4c655807c54b2f9210c1e06c894004bd1",
+          "syncedAt": "2026-10-22T04:10:50Z"
+        }
+      ]
+    },
+    {
+      "slug": "binary-search",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/binary-search/submission-0.py",
+          "language": "py",
+          "blobSha": "8a4f7fbb46db7e4f11fd8420e11af4db4952029e",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/binary-search/submission-1.py",
+          "language": "py",
+          "blobSha": "8a4f7fbb46db7e4f11fd8420e11af4db4952029e",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "binary-tree-diameter",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/binary-tree-diameter/submission-0.py",
+          "language": "py",
+          "blobSha": "fa0f9a24e5fa765edf981878e9803275d9b5a3a7",
+          "syncCommit": "d93a594475155a26bfcddab4914fef1d50bddde9",
+          "syncedAt": "2026-10-22T03:55:57Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/binary-tree-diameter/submission-1.py",
+          "language": "py",
+          "blobSha": "a31dc537dc8f0aeafbbeedee75d88632a6201815",
+          "syncCommit": "9268d1ae235525a341c9feef493f674b922decd5",
+          "syncedAt": "2026-10-22T03:56:19Z"
+        }
+      ]
+    },
+    {
+      "slug": "binary-tree-from-preorder-and-inorder-traversal",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/binary-tree-from-preorder-and-inorder-traversal/submission-1.py",
+          "language": "py",
+          "blobSha": "da915b65528ec9e6a58aff6aabb2bed0231ec9c5",
+          "syncCommit": "30395656d1e94fa2437c12d1c0572865bffdbfb6",
+          "syncedAt": "2026-11-10T01:38:42Z"
+        }
+      ]
+    },
+    {
+      "slug": "binary-tree-maximum-path-sum",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/binary-tree-maximum-path-sum/submission-1.py",
+          "language": "py",
+          "blobSha": "347acdd79be488d6d87fa5fcbc9120d088109c43",
+          "syncCommit": "75e956d222b68471aeb369f81401d25a60ca1357",
+          "syncedAt": "2026-11-20T04:33:14Z"
+        }
+      ]
+    },
+    {
+      "slug": "binary-tree-right-side-view",
+      "submissionCount": 3,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/binary-tree-right-side-view/submission-0.py",
+          "language": "py",
+          "blobSha": "4bc9eb93f3503ec39ab6629dd78e798c3563be4b",
+          "syncCommit": "ed706317f1747fafabf704628771cf4740eac459",
+          "syncedAt": "2026-10-25T21:16:10Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/binary-tree-right-side-view/submission-1.py",
+          "language": "py",
+          "blobSha": "d742e3a82537c34a315463deb16f5af3c3e4d617",
+          "syncCommit": "a284c30c13dd17cecd209c17059ba48ff45a1223",
+          "syncedAt": "2026-10-25T21:16:53Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/binary-tree-right-side-view/submission-3.py",
+          "language": "py",
+          "blobSha": "d742e3a82537c34a315463deb16f5af3c3e4d617",
+          "syncCommit": "3458d30b452d2828d66f279f627ae02a38d9cc18",
+          "syncedAt": "2026-10-25T21:18:38Z"
+        }
+      ]
+    },
+    {
+      "slug": "buy-and-sell-crypto",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/buy-and-sell-crypto/submission-0.py",
+          "language": "py",
+          "blobSha": "f6bb9abf0b910580d689f4953440fdd8489f7c1d",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/buy-and-sell-crypto/submission-1.py",
+          "language": "py",
+          "blobSha": "cc020ee05ebabffe121ae409728ee36ff2ef3895",
+          "syncCommit": "09cec379a1144385a657fe428454fb8974d4522a",
+          "syncedAt": "2026-11-19T21:47:42Z"
+        }
+      ]
+    },
+    {
+      "slug": "car-fleet",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/car-fleet/submission-0.py",
+          "language": "py",
+          "blobSha": "6d530a704bc2dc43bb912c722ad54e67f3708b90",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/car-fleet/submission-1.py",
+          "language": "py",
+          "blobSha": "1674bc40687b454d094371978e7062f872531560",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "copy-linked-list-with-random-pointer",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/copy-linked-list-with-random-pointer/submission-0.py",
+          "language": "py",
+          "blobSha": "c264308960d8e8ba996a2df5fe111993b405aa5a",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "count-good-nodes-in-binary-tree",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/count-good-nodes-in-binary-tree/submission-0.py",
+          "language": "py",
+          "blobSha": "c2f2d38f3b9d61b8a35c4d0c7e7a2796084ea815",
+          "syncCommit": "43a6c46740f36802e8afff7a90abaf776340f743",
+          "syncedAt": "2026-11-09T02:48:07Z"
+        }
+      ]
+    },
+    {
+      "slug": "daily-temperatures",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/daily-temperatures/submission-0.py",
+          "language": "py",
+          "blobSha": "9b656dc52de01ee235b69f0ff50fa69c7f89c943",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/daily-temperatures/submission-1.py",
+          "language": "py",
+          "blobSha": "735bbf12367ec24ab68fd8ffd3a3a832ddd21c5b",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "decode-ways",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/decode-ways/submission-0.py",
+          "language": "py",
+          "blobSha": "1103e02a78d60b97219f26ff2c6c244cd76967c1",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "depth-of-binary-tree",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/depth-of-binary-tree/submission-0.py",
+          "language": "py",
+          "blobSha": "93df7f96ad1e6fd959ef729607d73711754bb25b",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/depth-of-binary-tree/submission-1.py",
+          "language": "py",
+          "blobSha": "93df7f96ad1e6fd959ef729607d73711754bb25b",
+          "syncCommit": "8ff5cdc82d173f417a4203789db21a444f911f85",
+          "syncedAt": "2026-10-22T03:49:58Z"
+        }
+      ]
+    },
+    {
+      "slug": "duplicate-integer",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/duplicate-integer/submission-0.py",
+          "language": "py",
+          "blobSha": "cc7f2b3715310561f74fdcfa82ef81c83eece0d5",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "eating-bananas",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/eating-bananas/submission-2.py",
+          "language": "py",
+          "blobSha": "3c13d6a3c94f10fa2528ef46a6c774d350e8106e",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "evaluate-reverse-polish-notation",
+      "submissionCount": 4,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/evaluate-reverse-polish-notation/submission-5.py",
+          "language": "py",
+          "blobSha": "d7fc6ee40f9f9451d41c017534e14125900a2e4d",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/evaluate-reverse-polish-notation/submission-6.py",
+          "language": "py",
+          "blobSha": "8bf4d024f1a652b3281ff40a3224e88ceaa8adae",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/evaluate-reverse-polish-notation/submission-7.py",
+          "language": "py",
+          "blobSha": "5a02dabe5da80361292f8e7d545c669e87d32013",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/evaluate-reverse-polish-notation/submission-8.py",
+          "language": "py",
+          "blobSha": "5a02dabe5da80361292f8e7d545c669e87d32013",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "find-duplicate-integer",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/find-duplicate-integer/submission-0.py",
+          "language": "py",
+          "blobSha": "a821fea3c4b06bb39c19797702c1592b18ef1794",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/find-duplicate-integer/submission-1.py",
+          "language": "py",
+          "blobSha": "a821fea3c4b06bb39c19797702c1592b18ef1794",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/find-minimum-in-rotated-sorted-array/submission-0.py",
+          "language": "py",
+          "blobSha": "1ed566e8f98e8e64533b56de5a638b6d26ba1f37",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "find-target-in-rotated-sorted-array",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/find-target-in-rotated-sorted-array/submission-8.py",
+          "language": "py",
+          "blobSha": "8cc9f8d23e7d3153f9f4a31629ad81d50a230337",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/find-target-in-rotated-sorted-array/submission-9.py",
+          "language": "py",
+          "blobSha": "8ce6f136e3c7d013100041d42a7d4cf7c9cdfd09",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "generate-parentheses",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/generate-parentheses/submission-0.py",
+          "language": "py",
+          "blobSha": "aa4079c4aba14a70b4cff9d41c4d37dc1408e388",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "invert-a-binary-tree",
+      "submissionCount": 3,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/invert-a-binary-tree/submission-0.py",
+          "language": "py",
+          "blobSha": "09f1548beee463b4e4872ea1af1e7862273a4cb2",
+          "syncCommit": "cab716f8d473ba22253c445e174194097981e298",
+          "syncedAt": "2026-10-22T03:23:22Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/invert-a-binary-tree/submission-1.py",
+          "language": "py",
+          "blobSha": "e9a3d38c616e6880ec435ab5d97fe4f5ad8edb96",
+          "syncCommit": "fee3c7c455c41b5364e6fc76b487b6d4b19a910a",
+          "syncedAt": "2026-10-22T03:23:32Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/invert-a-binary-tree/submission-2.py",
+          "language": "py",
+          "blobSha": "d0ec3a7a1813c8f0fddf068a7a9d3ca65fc8e13f",
+          "syncCommit": "1598da9cba94780e8c2c39cc390e538263869221",
+          "syncedAt": "2026-10-22T03:25:58Z"
+        }
+      ]
+    },
+    {
+      "slug": "is-anagram",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/is-anagram/submission-0.py",
+          "language": "py",
+          "blobSha": "9dd9954da4dea0ea2225d8d7c41a244df7264738",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "is-palindrome",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/is-palindrome/submission-0.py",
+          "language": "py",
+          "blobSha": "e04febd6011736f24438c99b64e28b9abafc0403",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/is-palindrome/submission-1.py",
+          "language": "py",
+          "blobSha": "e04febd6011736f24438c99b64e28b9abafc0403",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "kth-smallest-integer-in-bst",
+      "submissionCount": 3,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/kth-smallest-integer-in-bst/submission-0.py",
+          "language": "py",
+          "blobSha": "fe48ad7f1b7cd44aced9397a595cd0bbc4e4fe26",
+          "syncCommit": "013c491ed80a1bcb0e685c70d837965432a85147",
+          "syncedAt": "2026-11-10T01:07:33Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/kth-smallest-integer-in-bst/submission-1.py",
+          "language": "py",
+          "blobSha": "c93471ffc510b034b683b453347e8a07a6b64078",
+          "syncCommit": "a86883ba7e8bdef69a1c355d36ca6002e146d292",
+          "syncedAt": "2026-11-10T01:11:36Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/kth-smallest-integer-in-bst/submission-2.py",
+          "language": "py",
+          "blobSha": "bc0907401bdbf115d7e0de8cf2f0876032971e82",
+          "syncCommit": "2d79fa221c52a8999cc510b405350a99e5ae8e30",
+          "syncedAt": "2026-11-10T01:13:28Z"
+        }
+      ]
+    },
+    {
+      "slug": "largest-rectangle-in-histogram",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/largest-rectangle-in-histogram/submission-0.py",
+          "language": "py",
+          "blobSha": "2ef91fc2008ebe721687b7db4bfa22676f6ca271",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "level-order-traversal-of-binary-tree",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/level-order-traversal-of-binary-tree/submission-0.py",
+          "language": "py",
+          "blobSha": "9b8c0c84e4cf51acb03a961a31779a34cd601f1e",
+          "syncCommit": "990aeeac90c8fe4cface1efaee19975769c5854c",
+          "syncedAt": "2026-10-25T20:39:21Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/level-order-traversal-of-binary-tree/submission-1.py",
+          "language": "py",
+          "blobSha": "e28d19b97c809125517f91c6d85ab1232b9fd547",
+          "syncCommit": "e121e06016df01fc3c0fecb4072b4ba9649f4ad2",
+          "syncedAt": "2026-10-25T21:15:08Z"
+        }
+      ]
+    },
+    {
+      "slug": "linked-list-cycle-detection",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/linked-list-cycle-detection/submission-0.py",
+          "language": "py",
+          "blobSha": "4b4364436935fe17bc8ae81ef3d857d9746c02ab",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/linked-list-cycle-detection/submission-1.py",
+          "language": "py",
+          "blobSha": "4b4364436935fe17bc8ae81ef3d857d9746c02ab",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "longest-consecutive-sequence",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/longest-consecutive-sequence/submission-6.py",
+          "language": "py",
+          "blobSha": "0441422b8505996abdd0dc7ae1e0617a32382625",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/longest-consecutive-sequence/submission-7.py",
+          "language": "py",
+          "blobSha": "1be7b18193e6187d4d80a72086b5794c8e9e52f2",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "longest-palindromic-substring",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/longest-palindromic-substring/submission-0.py",
+          "language": "py",
+          "blobSha": "d218cc37333b9c2aa93c975c6ec1739bbc9c7085",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "longest-repeating-substring-with-replacement",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/longest-repeating-substring-with-replacement/submission-0.py",
+          "language": "py",
+          "blobSha": "9a3f52e5bbd74ae41a59f4e464ee930b77eebb13",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "longest-substring-without-duplicates",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/longest-substring-without-duplicates/submission-0.py",
+          "language": "py",
+          "blobSha": "6a4d055e5b35be0dfb27ebe9b2030b7fac58d39d",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/longest-substring-without-duplicates/submission-1.py",
+          "language": "py",
+          "blobSha": "afb86696a201ab750fa5ee32e73d87c6fab1d46c",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "lowest-common-ancestor-in-binary-search-tree",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/lowest-common-ancestor-in-binary-search-tree/submission-0.py",
+          "language": "py",
+          "blobSha": "2cc6e2d5e644dac2f7a61de225a373961d19489b",
+          "syncCommit": "bdf4da25079f73257b27b7533ec7f0fb7f6b9ba3",
+          "syncedAt": "2026-10-24T04:45:21Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/lowest-common-ancestor-in-binary-search-tree/submission-4.py",
+          "language": "py",
+          "blobSha": "7fe5930793b09f46833a2c8692982bfc38e65fff",
+          "syncCommit": "f156e5b4af06e7c14db721c22ce2d5ee798be844",
+          "syncedAt": "2026-10-24T05:25:32Z"
+        }
+      ]
+    },
+    {
+      "slug": "lru-cache",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/lru-cache/submission-0.py",
+          "language": "py",
+          "blobSha": "6b952f91d8d33894f0b9eb2c93de1e5b516cf726",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "max-water-container",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/max-water-container/submission-0.py",
+          "language": "py",
+          "blobSha": "8b8230d7a7f8175a7962208dd9a61aae0bc44c1c",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/max-water-container/submission-5.py",
+          "language": "py",
+          "blobSha": "8b8230d7a7f8175a7962208dd9a61aae0bc44c1c",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "merge-k-sorted-linked-lists",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/merge-k-sorted-linked-lists/submission-0.py",
+          "language": "py",
+          "blobSha": "de13db3fd73b40b08f03cf8804486a4d0a968594",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "merge-two-sorted-linked-lists",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/merge-two-sorted-linked-lists/submission-0.py",
+          "language": "py",
+          "blobSha": "018205784f53ad6e061c739ba566f7fcbd9a3755",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "minimum-stack",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/minimum-stack/submission-0.py",
+          "language": "py",
+          "blobSha": "8354d2330540b3238579eba4a11d4a91231458a5",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/minimum-stack/submission-1.py",
+          "language": "py",
+          "blobSha": "c130828e6b9895ac9ec424cd5dd34a4d027d2f41",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "minimum-window-with-characters",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/minimum-window-with-characters/submission-0.py",
+          "language": "py",
+          "blobSha": "290b7ca16368175c35d1cdd5f1d540bf714a75ce",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "permutation-string",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/permutation-string/submission-0.py",
+          "language": "py",
+          "blobSha": "f5a4f03fb7691c726bd68682035f956cc4bce4b6",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/permutation-string/submission-1.py",
+          "language": "py",
+          "blobSha": "f5a4f03fb7691c726bd68682035f956cc4bce4b6",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "products-of-array-discluding-self",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/products-of-array-discluding-self/submission-0.py",
+          "language": "py",
+          "blobSha": "17bdf5fca25aa3b40863ae74ae2d3e45c0032b7a",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/products-of-array-discluding-self/submission-1.py",
+          "language": "py",
+          "blobSha": "17bdf5fca25aa3b40863ae74ae2d3e45c0032b7a",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "remove-node-from-end-of-linked-list",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/remove-node-from-end-of-linked-list/submission-0.py",
+          "language": "py",
+          "blobSha": "b0686ddf9050cbcb21a7571a945f39aec3d66181",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/remove-node-from-end-of-linked-list/submission-1.py",
+          "language": "py",
+          "blobSha": "b0686ddf9050cbcb21a7571a945f39aec3d66181",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "reorder-linked-list",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/reorder-linked-list/submission-0.py",
+          "language": "py",
+          "blobSha": "fc9ecd51f28848a5e081f834f7b9243c53c9ca75",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "reverse-a-linked-list",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/reverse-a-linked-list/submission-0.py",
+          "language": "py",
+          "blobSha": "459e07722882e84452e9f178a14176481f5627cf",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "reverse-nodes-in-k-group",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/reverse-nodes-in-k-group/submission-0.py",
+          "language": "py",
+          "blobSha": "5e2ca2d295133c98bbcf428aa80ddb8571a76ec9",
+          "syncCommit": "677e4124ded6c347e8af5402a77d0a1e80513b40",
+          "syncedAt": "2026-10-21T21:02:05Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/reverse-nodes-in-k-group/submission-1.py",
+          "language": "py",
+          "blobSha": "e09ddcbabd4001767fa527b5ca931e64843b54f7",
+          "syncCommit": "9d7d72f85309ac468653c1f3320322e60b00667e",
+          "syncedAt": "2026-10-21T21:53:04Z"
+        }
+      ]
+    },
+    {
+      "slug": "same-binary-tree",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/same-binary-tree/submission-1.py",
+          "language": "py",
+          "blobSha": "468784425b2403ad15115a709a3b218af3ee9566",
+          "syncCommit": "cbad7e45dc55e56dd655b85e625ce12cc677301e",
+          "syncedAt": "2026-10-23T03:55:31Z"
+        }
+      ]
+    },
+    {
+      "slug": "search-2d-matrix",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/search-2d-matrix/submission-0.py",
+          "language": "py",
+          "blobSha": "26d0ee189f4f23ce484a5120b074e6b59a5c074d",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "serialize-and-deserialize-binary-tree",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/serialize-and-deserialize-binary-tree/submission-0.py",
+          "language": "py",
+          "blobSha": "8cd5b78a21677cb850b188e09b74783c6b710343",
+          "syncCommit": "9205db658196c2552fb531207b83edb8bb22b3b6",
+          "syncedAt": "2026-11-20T05:08:32Z"
+        }
+      ]
+    },
+    {
+      "slug": "sliding-window-maximum",
+      "submissionCount": 3,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/sliding-window-maximum/submission-0.py",
+          "language": "py",
+          "blobSha": "1ff601624eca5e230e2790af0e827d0570c0ea93",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/sliding-window-maximum/submission-1.py",
+          "language": "py",
+          "blobSha": "6c0116dff9d331f389ac0285d84861097ed5ffd4",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/sliding-window-maximum/submission-2.py",
+          "language": "py",
+          "blobSha": "d67ca9e13b87aeb525efd77eedcadb8ded26a19d",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "string-encode-and-decode",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/string-encode-and-decode/submission-3.py",
+          "language": "py",
+          "blobSha": "811c9a316badd674a36503ecde358ea46dafe2dc",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "subtree-of-a-binary-tree",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/subtree-of-a-binary-tree/submission-0.py",
+          "language": "py",
+          "blobSha": "9e43140c8c413bd83d004cb8e69161feb560765d",
+          "syncCommit": "447c449ae97fb33d4cf0e1b98f5d0786a963445c",
+          "syncedAt": "2026-10-23T04:12:41Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/subtree-of-a-binary-tree/submission-1.py",
+          "language": "py",
+          "blobSha": "de2bedbf82e03aa84a0831eb410d3fbff729c750",
+          "syncCommit": "592a5e36748d799204e9e84799fb07c96494c47e",
+          "syncedAt": "2026-10-23T04:20:40Z"
+        }
+      ]
+    },
+    {
+      "slug": "three-integer-sum",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/three-integer-sum/submission-1.py",
+          "language": "py",
+          "blobSha": "3aed50efd885463a1189e113dd6cefc85da323eb",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "time-based-key-value-store",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/time-based-key-value-store/submission-1.py",
+          "language": "py",
+          "blobSha": "196432abcc16a7d76c210a6470dcfcad2715a91c",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/time-based-key-value-store/submission-2.py",
+          "language": "py",
+          "blobSha": "196432abcc16a7d76c210a6470dcfcad2715a91c",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "top-k-elements-in-list",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/top-k-elements-in-list/submission-1.py",
+          "language": "py",
+          "blobSha": "aa68ff90bfd04a6b22cd38fe5a430636d7bd822a",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/top-k-elements-in-list/submission-2.py",
+          "language": "py",
+          "blobSha": "aa68ff90bfd04a6b22cd38fe5a430636d7bd822a",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "trapping-rain-water",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/trapping-rain-water/submission-0.py",
+          "language": "py",
+          "blobSha": "2102451b6fb172bf0767011cc5417c6924e09eb5",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/trapping-rain-water/submission-1.py",
+          "language": "py",
+          "blobSha": "c5c7af30c6171a96c397137fd263f3c13fec6b23",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "two-integer-sum",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/two-integer-sum/submission-0.py",
+          "language": "py",
+          "blobSha": "8d636774c9acccab22a5bb5c011446a19fd599a7",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/two-integer-sum/submission-1.py",
+          "language": "py",
+          "blobSha": "8d636774c9acccab22a5bb5c011446a19fd599a7",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "two-integer-sum-ii",
+      "submissionCount": 4,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/two-integer-sum-ii/submission-2.py",
+          "language": "py",
+          "blobSha": "d6af6dc79e927ba6b996d62c9d76dfd64c6bff98",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/two-integer-sum-ii/submission-3.py",
+          "language": "py",
+          "blobSha": "4cc291a85e880f1f509cb037fb393283661568a7",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/two-integer-sum-ii/submission-5.py",
+          "language": "py",
+          "blobSha": "402a69869478ee870cc075db47ae5a0c2f276d20",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/two-integer-sum-ii/submission-6.py",
+          "language": "py",
+          "blobSha": "1e98dbd6b462a3f053cbba68be8fa37e25698198",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "valid-binary-search-tree",
+      "submissionCount": 1,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/valid-binary-search-tree/submission-1.py",
+          "language": "py",
+          "blobSha": "ff25f5a8118a6709a72cb0fe5e43828bb6774d3e",
+          "syncCommit": "494393d4120efde46631838efe577e10d5138fba",
+          "syncedAt": "2026-11-09T02:56:50Z"
+        }
+      ]
+    },
+    {
+      "slug": "valid-sudoku",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/valid-sudoku/submission-0.py",
+          "language": "py",
+          "blobSha": "50109b21df641e3aa014b869e476fe811dbe47ab",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/valid-sudoku/submission-1.py",
+          "language": "py",
+          "blobSha": "50109b21df641e3aa014b869e476fe811dbe47ab",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    },
+    {
+      "slug": "validate-parentheses",
+      "submissionCount": 2,
+      "submissions": [
+        {
+          "path": "Data Structures & Algorithms/validate-parentheses/submission-1.py",
+          "language": "py",
+          "blobSha": "30ae00cbe739222e7eb8a972bc766e85568f8859",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/validate-parentheses/submission-2.py",
+          "language": "py",
+          "blobSha": "30ae00cbe739222e7eb8a972bc766e85568f8859",
+          "syncCommit": "82482d93bf3d36a62812e1d755e679ba503ce333",
+          "syncedAt": "2026-10-21T20:39:13Z"
+        }
+      ]
+    }
+  ]
+}
