@@ -1,6 +1,6 @@
 # Greedy — 0/8 synced
 
-Counts reflect the imported snapshot, not independent attempts or acceptance. Familiarity unknown until assessed.
+Counts reflect synced files, not independent attempts or acceptance. Familiarity is manually assessed.
 
 | LC | Problem | Difficulty | Synced files | Familiarity |
 |---|---|---|---:|---|

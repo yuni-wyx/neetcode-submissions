@@ -1,0 +1,117 @@
+{
+  "catalogTotal": 150,
+  "catalogCovered": 61,
+  "syncedFiles": 102,
+  "syncedSlugs": 61,
+  "unmappedSlugs": [],
+  "categories": [
+    {
+      "category": "Arrays & Hashing",
+      "total": 9,
+      "covered": 9,
+      "submissions": 14
+    },
+    {
+      "category": "Two Pointers",
+      "total": 5,
+      "covered": 5,
+      "submissions": 11
+    },
+    {
+      "category": "Sliding Window",
+      "total": 6,
+      "covered": 6,
+      "submissions": 11
+    },
+    {
+      "category": "Stack",
+      "total": 7,
+      "covered": 7,
+      "submissions": 14
+    },
+    {
+      "category": "Binary Search",
+      "total": 7,
+      "covered": 6,
+      "submissions": 9
+    },
+    {
+      "category": "Linked List",
+      "total": 11,
+      "covered": 11,
+      "submissions": 15
+    },
+    {
+      "category": "Trees",
+      "total": 15,
+      "covered": 15,
+      "submissions": 26
+    },
+    {
+      "category": "Tries",
+      "total": 3,
+      "covered": 0,
+      "submissions": 0
+    },
+    {
+      "category": "Heap / Priority Queue",
+      "total": 7,
+      "covered": 0,
+      "submissions": 0
+    },
+    {
+      "category": "Backtracking",
+      "total": 9,
+      "covered": 0,
+      "submissions": 0
+    },
+    {
+      "category": "Graphs",
+      "total": 13,
+      "covered": 0,
+      "submissions": 0
+    },
+    {
+      "category": "Advanced Graphs",
+      "total": 6,
+      "covered": 0,
+      "submissions": 0
+    },
+    {
+      "category": "1-D Dynamic Programming",
+      "total": 12,
+      "covered": 2,
+      "submissions": 2
+    },
+    {
+      "category": "2-D Dynamic Programming",
+      "total": 11,
+      "covered": 0,
+      "submissions": 0
+    },
+    {
+      "category": "Greedy",
+      "total": 8,
+      "covered": 0,
+      "submissions": 0
+    },
+    {
+      "category": "Intervals",
+      "total": 6,
+      "covered": 0,
+      "submissions": 0
+    },
+    {
+      "category": "Math & Geometry",
+      "total": 8,
+      "covered": 0,
+      "submissions": 0
+    },
+    {
+      "category": "Bit Manipulation",
+      "total": 7,
+      "covered": 0,
+      "submissions": 0
+    }
+  ]
+}

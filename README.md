@@ -78,3 +78,32 @@ Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io
 [Browse algorithm patterns](patterns/README.md) · [Roadmap](ROADMAP.md) · [Submission import](docs/submission-import.md)
 
 150 catalog problems, 18 categories, 61 synced problems and 102 submission files at migration. Counts do not imply acceptance or independent practice. Python submissions remain in the original NeetCode-managed folder; templates and notes live in `patterns/`.
+
+<!-- tracker-stats:start -->
+
+**61/150 catalog problems · 102 synced files · 61 synced slugs**
+
+| Category | Covered | Submissions |
+|---|---:|---:|
+| Arrays & Hashing | 9/9 | 14 |
+| Two Pointers | 5/5 | 11 |
+| Sliding Window | 6/6 | 11 |
+| Stack | 7/7 | 14 |
+| Binary Search | 6/7 | 9 |
+| Linked List | 11/11 | 15 |
+| Trees | 15/15 | 26 |
+| Tries | 0/3 | 0 |
+| Heap / Priority Queue | 0/7 | 0 |
+| Backtracking | 0/9 | 0 |
+| Graphs | 0/13 | 0 |
+| Advanced Graphs | 0/6 | 0 |
+| 1-D Dynamic Programming | 2/12 | 2 |
+| 2-D Dynamic Programming | 0/11 | 0 |
+| Greedy | 0/8 | 0 |
+| Intervals | 0/6 | 0 |
+| Math & Geometry | 0/8 | 0 |
+| Bit Manipulation | 0/7 | 0 |
+
+Unmapped slugs: none
+
+<!-- tracker-stats:end -->
