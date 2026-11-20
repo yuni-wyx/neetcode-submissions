@@ -1,7 +1,7 @@
 {
   "catalogTotal": 150,
   "catalogCovered": 61,
-  "syncedFiles": 102,
+  "syncedFiles": 103,
   "syncedSlugs": 61,
   "unmappedSlugs": [],
   "categories": [
@@ -45,7 +45,7 @@
       "category": "Trees",
       "total": 15,
       "covered": 15,
-      "submissions": 26
+      "submissions": 27
     },
     {
       "category": "Tries",

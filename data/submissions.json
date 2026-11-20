@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "sourceRepository": "yuni-wyx/neetcode-submissions",
   "sourceRef": "main",
-  "sourceCommit": "9205db658196c2552fb531207b83edb8bb22b3b6",
-  "sourceHeadTimestamp": "2026-11-20T05:08:32Z",
+  "sourceCommit": "5e7a7dcf0b7931dec38cb7dd987e0d9febf094a4",
+  "sourceHeadTimestamp": "2026-11-19T22:17:00-07:00",
   "uniqueProblems": 61,
-  "submissionCount": 102,
+  "submissionCount": 103,
   "problems": [
     {
       "slug": "add-two-numbers",
@@ -836,7 +836,7 @@
     },
     {
       "slug": "serialize-and-deserialize-binary-tree",
-      "submissionCount": 1,
+      "submissionCount": 2,
       "submissions": [
         {
           "path": "Data Structures & Algorithms/serialize-and-deserialize-binary-tree/submission-0.py",
@@ -844,6 +844,13 @@
           "blobSha": "8cd5b78a21677cb850b188e09b74783c6b710343",
           "syncCommit": "9205db658196c2552fb531207b83edb8bb22b3b6",
           "syncedAt": "2026-11-20T05:08:32Z"
+        },
+        {
+          "path": "Data Structures & Algorithms/serialize-and-deserialize-binary-tree/submission-1.py",
+          "language": "py",
+          "blobSha": "8cd5b78a21677cb850b188e09b74783c6b710343",
+          "syncCommit": "5e7a7dcf0b7931dec38cb7dd987e0d9febf094a4",
+          "syncedAt": "2026-11-19T22:17:00-07:00"
         }
       ]
     },

@@ -18,4 +18,4 @@ Counts reflect synced files, not independent attempts or acceptance. Familiarity
 | 230 | [Kth Smallest Element In a Bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [3](../../Data%20Structures%20%26%20Algorithms/kth-smallest-integer-in-bst) | — |
 | 105 | [Construct Binary Tree From Preorder And Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | [1](../../Data%20Structures%20%26%20Algorithms/binary-tree-from-preorder-and-inorder-traversal) | — |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | [1](../../Data%20Structures%20%26%20Algorithms/binary-tree-maximum-path-sum) | — |
-| 297 | [Serialize And Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | [1](../../Data%20Structures%20%26%20Algorithms/serialize-and-deserialize-binary-tree) | — |
+| 297 | [Serialize And Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | [2](../../Data%20Structures%20%26%20Algorithms/serialize-and-deserialize-binary-tree) | — |

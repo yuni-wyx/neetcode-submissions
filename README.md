@@ -81,7 +81,7 @@ Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io
 
 <!-- tracker-stats:start -->
 
-**61/150 catalog problems · 102 synced files · 61 synced slugs**
+**61/150 catalog problems · 103 synced files · 61 synced slugs**
 
 | Category | Covered | Submissions |
 |---|---:|---:|
@@ -91,7 +91,7 @@ Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io
 | Stack | 7/7 | 14 |
 | Binary Search | 6/7 | 9 |
 | Linked List | 11/11 | 15 |
-| Trees | 15/15 | 26 |
+| Trees | 15/15 | 27 |
 | Tries | 0/3 | 0 |
 | Heap / Priority Queue | 0/7 | 0 |
 | Backtracking | 0/9 | 0 |
