@@ -1,0 +1,49 @@
+name: Refresh submission tracker
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Data Structures & Algorithms/**'
+      - 'scripts/refresh_submissions.py'
+      - 'tests/test_refresh_submissions.py'
+      - 'data/slug-aliases.json'
+      - '.github/workflows/refresh-submissions.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '17 8 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: submission-tracker-main
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test and regenerate
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/refresh_submissions.py
+          python scripts/refresh_submissions.py --check
+      - name: Publish generated files only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git add README.md data/problems.json data/submissions.json data/stats.json patterns/*/problems.md
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m 'chore: refresh submission statistics'
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/refresh_submissions.py
+            python scripts/refresh_submissions.py --check
+          done
+          exit 1

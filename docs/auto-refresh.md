@@ -1,0 +1,3 @@
+# Phase 3 — automated refresh
+
+On submission changes, manual dispatch, or daily schedule, GitHub Actions scans tracked files without running submissions. Counts use actual files, not filename suffixes. Known aliases map to catalog IDs; unknown slugs appear in stats and need an explicit alias review. Historical sync dates are Git timestamps, not practice dates. Familiarity cells and attempts.json are not inferred or overwritten. Generated tables are owned by the script; keep prose in README/template/mistakes files. Run `python -m unittest discover -s tests -v` and `python scripts/refresh_submissions.py` from a full clone. The bot only stages generated paths; conflicts retry against latest main. No force push.

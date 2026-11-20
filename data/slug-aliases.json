@@ -1,0 +1,491 @@
+{
+  "1": [
+    "two-integer-sum",
+    "two-sum"
+  ],
+  "2": [
+    "add-two-numbers"
+  ],
+  "3": [
+    "longest-substring-without-duplicates",
+    "longest-substring-without-repeating-characters"
+  ],
+  "4": [
+    "median-of-two-sorted-arrays"
+  ],
+  "5": [
+    "longest-palindromic-substring"
+  ],
+  "7": [
+    "reverse-integer"
+  ],
+  "10": [
+    "regular-expression-matching"
+  ],
+  "11": [
+    "max-water-container",
+    "container-with-most-water"
+  ],
+  "15": [
+    "three-integer-sum",
+    "3sum"
+  ],
+  "17": [
+    "letter-combinations-of-a-phone-number"
+  ],
+  "19": [
+    "remove-node-from-end-of-linked-list",
+    "remove-nth-node-from-end-of-list"
+  ],
+  "20": [
+    "validate-parentheses",
+    "valid-parentheses"
+  ],
+  "21": [
+    "merge-two-sorted-linked-lists",
+    "merge-two-sorted-lists"
+  ],
+  "22": [
+    "generate-parentheses"
+  ],
+  "23": [
+    "merge-k-sorted-linked-lists",
+    "merge-k-sorted-lists"
+  ],
+  "25": [
+    "reverse-nodes-in-k-group"
+  ],
+  "33": [
+    "find-target-in-rotated-sorted-array",
+    "search-in-rotated-sorted-array"
+  ],
+  "36": [
+    "valid-sudoku"
+  ],
+  "39": [
+    "combination-sum"
+  ],
+  "40": [
+    "combination-sum-ii"
+  ],
+  "42": [
+    "trapping-rain-water"
+  ],
+  "43": [
+    "multiply-strings"
+  ],
+  "45": [
+    "jump-game-ii"
+  ],
+  "46": [
+    "permutations"
+  ],
+  "48": [
+    "rotate-image"
+  ],
+  "49": [
+    "anagram-groups",
+    "group-anagrams"
+  ],
+  "50": [
+    "powx-n"
+  ],
+  "51": [
+    "n-queens"
+  ],
+  "53": [
+    "maximum-subarray"
+  ],
+  "54": [
+    "spiral-matrix"
+  ],
+  "55": [
+    "jump-game"
+  ],
+  "56": [
+    "merge-intervals"
+  ],
+  "57": [
+    "insert-interval"
+  ],
+  "62": [
+    "unique-paths"
+  ],
+  "66": [
+    "plus-one"
+  ],
+  "70": [
+    "climbing-stairs"
+  ],
+  "72": [
+    "edit-distance"
+  ],
+  "73": [
+    "set-matrix-zeroes"
+  ],
+  "74": [
+    "search-2d-matrix",
+    "search-a-2d-matrix"
+  ],
+  "76": [
+    "minimum-window-with-characters",
+    "minimum-window-substring"
+  ],
+  "78": [
+    "subsets"
+  ],
+  "79": [
+    "word-search"
+  ],
+  "84": [
+    "largest-rectangle-in-histogram"
+  ],
+  "90": [
+    "subsets-ii"
+  ],
+  "91": [
+    "decode-ways"
+  ],
+  "97": [
+    "interleaving-string"
+  ],
+  "98": [
+    "valid-binary-search-tree",
+    "validate-binary-search-tree"
+  ],
+  "100": [
+    "same-binary-tree",
+    "same-tree"
+  ],
+  "102": [
+    "level-order-traversal-of-binary-tree",
+    "binary-tree-level-order-traversal"
+  ],
+  "104": [
+    "depth-of-binary-tree",
+    "maximum-depth-of-binary-tree"
+  ],
+  "105": [
+    "binary-tree-from-preorder-and-inorder-traversal",
+    "construct-binary-tree-from-preorder-and-inorder-traversal"
+  ],
+  "110": [
+    "balanced-binary-tree"
+  ],
+  "115": [
+    "distinct-subsequences"
+  ],
+  "121": [
+    "buy-and-sell-crypto",
+    "best-time-to-buy-and-sell-stock"
+  ],
+  "124": [
+    "binary-tree-maximum-path-sum"
+  ],
+  "125": [
+    "is-palindrome",
+    "valid-palindrome"
+  ],
+  "127": [
+    "word-ladder"
+  ],
+  "128": [
+    "longest-consecutive-sequence"
+  ],
+  "130": [
+    "surrounded-regions"
+  ],
+  "131": [
+    "palindrome-partitioning"
+  ],
+  "133": [
+    "clone-graph"
+  ],
+  "134": [
+    "gas-station"
+  ],
+  "136": [
+    "single-number"
+  ],
+  "138": [
+    "copy-linked-list-with-random-pointer",
+    "copy-list-with-random-pointer"
+  ],
+  "139": [
+    "word-break"
+  ],
+  "141": [
+    "linked-list-cycle-detection",
+    "linked-list-cycle"
+  ],
+  "143": [
+    "reorder-linked-list",
+    "reorder-list"
+  ],
+  "146": [
+    "lru-cache"
+  ],
+  "150": [
+    "evaluate-reverse-polish-notation"
+  ],
+  "152": [
+    "maximum-product-subarray"
+  ],
+  "153": [
+    "find-minimum-in-rotated-sorted-array"
+  ],
+  "155": [
+    "minimum-stack",
+    "min-stack"
+  ],
+  "167": [
+    "two-integer-sum-ii",
+    "two-sum-ii-input-array-is-sorted"
+  ],
+  "190": [
+    "reverse-bits"
+  ],
+  "191": [
+    "number-of-1-bits"
+  ],
+  "198": [
+    "house-robber"
+  ],
+  "199": [
+    "binary-tree-right-side-view"
+  ],
+  "200": [
+    "number-of-islands"
+  ],
+  "202": [
+    "happy-number"
+  ],
+  "206": [
+    "reverse-a-linked-list",
+    "reverse-linked-list"
+  ],
+  "207": [
+    "course-schedule"
+  ],
+  "208": [
+    "implement-trie-prefix-tree"
+  ],
+  "210": [
+    "course-schedule-ii"
+  ],
+  "211": [
+    "design-add-and-search-words-data-structure"
+  ],
+  "212": [
+    "word-search-ii"
+  ],
+  "213": [
+    "house-robber-ii"
+  ],
+  "215": [
+    "kth-largest-element-in-an-array"
+  ],
+  "217": [
+    "duplicate-integer",
+    "contains-duplicate"
+  ],
+  "226": [
+    "invert-a-binary-tree",
+    "invert-binary-tree"
+  ],
+  "230": [
+    "kth-smallest-integer-in-bst",
+    "kth-smallest-element-in-a-bst"
+  ],
+  "235": [
+    "lowest-common-ancestor-in-binary-search-tree",
+    "lowest-common-ancestor-of-a-binary-search-tree"
+  ],
+  "238": [
+    "products-of-array-discluding-self",
+    "product-of-array-except-self"
+  ],
+  "239": [
+    "sliding-window-maximum"
+  ],
+  "242": [
+    "is-anagram",
+    "valid-anagram"
+  ],
+  "252": [
+    "meeting-rooms"
+  ],
+  "253": [
+    "meeting-rooms-ii"
+  ],
+  "261": [
+    "graph-valid-tree"
+  ],
+  "268": [
+    "missing-number"
+  ],
+  "269": [
+    "alien-dictionary"
+  ],
+  "271": [
+    "string-encode-and-decode",
+    "encode-and-decode-strings"
+  ],
+  "286": [
+    "walls-and-gates"
+  ],
+  "287": [
+    "find-duplicate-integer",
+    "find-the-duplicate-number"
+  ],
+  "295": [
+    "find-median-from-data-stream"
+  ],
+  "297": [
+    "serialize-and-deserialize-binary-tree"
+  ],
+  "300": [
+    "longest-increasing-subsequence"
+  ],
+  "309": [
+    "best-time-to-buy-and-sell-stock-with-cooldown"
+  ],
+  "312": [
+    "burst-balloons"
+  ],
+  "322": [
+    "coin-change"
+  ],
+  "323": [
+    "number-of-connected-components-in-an-undirected-graph"
+  ],
+  "329": [
+    "longest-increasing-path-in-a-matrix"
+  ],
+  "332": [
+    "reconstruct-itinerary"
+  ],
+  "338": [
+    "counting-bits"
+  ],
+  "347": [
+    "top-k-elements-in-list",
+    "top-k-frequent-elements"
+  ],
+  "355": [
+    "design-twitter"
+  ],
+  "371": [
+    "sum-of-two-integers"
+  ],
+  "416": [
+    "partition-equal-subset-sum"
+  ],
+  "417": [
+    "pacific-atlantic-water-flow"
+  ],
+  "424": [
+    "longest-repeating-substring-with-replacement",
+    "longest-repeating-character-replacement"
+  ],
+  "435": [
+    "non-overlapping-intervals"
+  ],
+  "494": [
+    "target-sum"
+  ],
+  "518": [
+    "coin-change-ii"
+  ],
+  "543": [
+    "binary-tree-diameter",
+    "diameter-of-binary-tree"
+  ],
+  "567": [
+    "permutation-string",
+    "permutation-in-string"
+  ],
+  "572": [
+    "subtree-of-a-binary-tree",
+    "subtree-of-another-tree"
+  ],
+  "621": [
+    "task-scheduler"
+  ],
+  "647": [
+    "palindromic-substrings"
+  ],
+  "678": [
+    "valid-parenthesis-string"
+  ],
+  "684": [
+    "redundant-connection"
+  ],
+  "695": [
+    "max-area-of-island"
+  ],
+  "703": [
+    "kth-largest-element-in-a-stream"
+  ],
+  "704": [
+    "binary-search"
+  ],
+  "739": [
+    "daily-temperatures"
+  ],
+  "743": [
+    "network-delay-time"
+  ],
+  "746": [
+    "min-cost-climbing-stairs"
+  ],
+  "763": [
+    "partition-labels"
+  ],
+  "778": [
+    "swim-in-rising-water"
+  ],
+  "787": [
+    "cheapest-flights-within-k-stops"
+  ],
+  "846": [
+    "hand-of-straights"
+  ],
+  "853": [
+    "car-fleet"
+  ],
+  "875": [
+    "eating-bananas",
+    "koko-eating-bananas"
+  ],
+  "973": [
+    "k-closest-points-to-origin"
+  ],
+  "981": [
+    "time-based-key-value-store"
+  ],
+  "994": [
+    "rotting-oranges"
+  ],
+  "1046": [
+    "last-stone-weight"
+  ],
+  "1143": [
+    "longest-common-subsequence"
+  ],
+  "1448": [
+    "count-good-nodes-in-binary-tree"
+  ],
+  "1584": [
+    "min-cost-to-connect-all-points"
+  ],
+  "1851": [
+    "minimum-interval-to-include-each-query"
+  ],
+  "1899": [
+    "merge-triplets-to-form-target-triplet"
+  ],
+  "2013": [
+    "detect-squares"
+  ]
+}

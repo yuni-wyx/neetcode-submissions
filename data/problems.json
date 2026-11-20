@@ -26,7 +26,7 @@
     "difficulty": "Easy",
     "url": "https://leetcode.com/problems/two-sum/",
     "neetcode150": true,
-    "submissionSlug": "two-integer-sum-ii",
+    "submissionSlug": "two-integer-sum",
     "patternFolder": "patterns/01-arrays-and-hashing"
   },
   {
@@ -106,7 +106,7 @@
     "difficulty": "Medium",
     "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
     "neetcode150": true,
-    "submissionSlug": "two-integer-sum",
+    "submissionSlug": "two-integer-sum-ii",
     "patternFolder": "patterns/02-two-pointers"
   },
   {
