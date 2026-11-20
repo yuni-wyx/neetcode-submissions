@@ -1,0 +1,41 @@
+import React,{useState} from 'react'
+import {createRoot} from 'react-dom/client'
+import Markdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
+import catalog from '../../data/problems.json'
+import snapshot from '../../data/submissions.json'
+import aliases from '../../data/slug-aliases.json'
+import history from '../../data/attempts.json'
+import assessments from '../../data/assessments.json'
+import {validateLocal,mergeLocal,latestMastery,reviewPriority} from './model.mjs'
+import './style.css'
+type Session={id:string;problemId:number;date:string;mastery:number;lesson:string}
+const pages=['Overview','Problems','Templates','Mistakes','Review','Analytics']
+const categories=[...new Set(catalog.map(p=>p.category))]
+const docs=import.meta.glob('../../patterns/*/*.md',{query:'?raw',import:'default',eager:true}) as Record<string,string>
+const counts=new Map(snapshot.problems.map(p=>[p.slug,p.submissionCount]))
+const ids=catalog.map(p=>p.id)
+const key='neetcode-dashboard-v1'
+const repository='https://github.com/yuni-wyx/neetcode-submissions'
+function load():Session[]{try{return validateLocal(JSON.parse(localStorage.getItem(key)||'[]'),ids)}catch{return []}}
+function App(){
+ const [page,setPage]=useState('Overview'),[local,setLocal]=useState<Session[]>(load),[query,setQuery]=useState(''),[category,setCategory]=useState('All'),[difficulty,setDifficulty]=useState('All'),[level,setLevel]=useState('All'),[doc,setDoc]=useState(categories[0]),[selected,setSelected]=useState<number|null>(null),[score,setScore]=useState(2),[lesson,setLesson]=useState(''),[notice,setNotice]=useState('')
+ const rows=catalog.map(p=>({...p,submissions:(aliases as Record<string,string[]>)[String(p.id)].reduce((n,s)=>n+(counts.get(s)||0),0),practice:history.filter(a=>a.problemId===p.id).length+local.filter(a=>a.problemId===p.id).length,mastery:latestMastery(assessments,local,p.id) as number|null}))
+ const covered=rows.filter(p=>p.submissions>0).length
+ const filtered=rows.filter(p=>(category==='All'||p.category===category)&&(difficulty==='All'||p.difficulty===difficulty)&&(level==='All'||(level==='Unknown'?p.mastery===null:String(p.mastery)===level))&&(`${p.id} ${p.title}`.toLowerCase().includes(query.toLowerCase())))
+ function save(next:Session[]){try{localStorage.setItem(key,JSON.stringify(next));setLocal(next);setNotice('Saved on this device.')}catch{setNotice('Storage unavailable; changes not saved.')}}
+ function record(){if(selected===null)return; const now=new Date();const date=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');save([...local,{id:crypto.randomUUID(),problemId:selected,date,mastery:score,lesson:lesson.trim()}]);setSelected(null);setLesson('')}
+ function exportData(){const url=URL.createObjectURL(new Blob([JSON.stringify(local,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='neetcode-local-practice.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+ const folder=catalog.find(p=>p.category===doc)!.patternFolder
+ const table=(list:typeof rows)=><div className="tablewrap"><table><thead><tr><th>Problem</th><th>Difficulty</th><th>Synced</th><th>Practice</th><th>Mastery</th><th></th></tr></thead><tbody>{list.map(p=><tr key={p.id}><td><a href={p.url} target="_blank" rel="noreferrer">{p.id}. {p.title}</a><small>{p.category}</small></td><td>{p.difficulty}</td><td>{p.submissions}</td><td>{p.practice}</td><td>{p.mastery===null?'Unknown':p.mastery+'/5'}</td><td><button onClick={()=>{setSelected(p.id);setScore(2);setLesson('')}}>Log</button></td></tr>)}</tbody></table>{list.length===0&&<p>No matching problems.</p>}</div>
+ return <div className="shell"><aside><h2>NeetCode<span> / Tracker</span></h2><nav>{pages.map(p=><button key={p} aria-current={page===p?'page':undefined} onClick={()=>setPage(p)}>{p}</button>)}</nav><a href={repository}>GitHub repository ↗</a></aside><main><header><div><small>PERSONAL LEARNING WORKSPACE</small><h1>{page}</h1></div><div className="actions"><button onClick={exportData}>Export JSON</button><label className="upload">Import JSON<input type="file" accept=".json,application/json" onChange={async e=>{const file=e.target.files?.[0];if(file)try{save(mergeLocal(local,JSON.parse(await file.text()),ids))}catch(err){setNotice(String(err))}e.target.value=''}}/></label></div></header>
+ <p className="muted">Repository snapshot · Practice logs on this device are private to this browser, not synced to GitHub. Counts are documented evidence, not total historical attempts.</p>{notice&&<p role="status">{notice}</p>}
+ {page==='Overview'&&<><div className="metrics">{[['Catalog coverage',covered+'/'+catalog.length],['Synced files',snapshot.submissionCount],['Documented practice',history.length+local.length],['Assessed problems',rows.filter(p=>p.mastery!==null).length]].map(([label,value])=><article key={label}><small>{label}</small><strong>{value}</strong></article>)}</div><section><h2>Category progress</h2>{categories.map(c=>{const all=rows.filter(p=>p.category===c),n=all.filter(p=>p.submissions>0).length;return <div className="barrow" key={c}><span>{c}</span><progress max={all.length} value={n}/><b>{n}/{all.length}</b></div>})}</section></>}
+ {page==='Problems'&&<><div className="filters"><input aria-label="Search problems" placeholder="Search title or LC number" value={query} onChange={e=>setQuery(e.target.value)}/><select aria-label="Category" value={category} onChange={e=>setCategory(e.target.value)}>{['All',...categories].map(x=><option key={x}>{x}</option>)}</select><select aria-label="Difficulty" value={difficulty} onChange={e=>setDifficulty(e.target.value)}>{['All','Easy','Medium','Hard'].map(x=><option key={x}>{x}</option>)}</select><select aria-label="Mastery" value={level} onChange={e=>setLevel(e.target.value)}>{['All','Unknown','0','1','2','3','4','5'].map(x=><option key={x}>{x}</option>)}</select></div><p>{filtered.length} problems</p>{table(filtered)}</>}
+ {(page==='Templates'||page==='Mistakes')&&<><select aria-label="Pattern category" value={doc} onChange={e=>setDoc(e.target.value)}>{categories.map(c=><option key={c}>{c}</option>)}</select><section className="markdown"><Markdown remarkPlugins={[remarkGfm]}>{docs['../../'+folder+'/'+(page==='Templates'?'template':'mistakes')+'.md']||'No document available.'}</Markdown></section>{page==='Mistakes'&&<section><h2>Local practice notes</h2>{local.filter(a=>a.lesson&&catalog.find(p=>p.id===a.problemId)?.category===doc).map(a=><p key={a.id}>LC {a.problemId} · {a.date} · {a.lesson}</p>)}</section>}</>}
+ {page==='Review'&&<><p>Priority: assessed levels 0–2, synced but unassessed, then level 3. This is a suggested queue, not a spaced-repetition schedule.</p>{table(rows.filter(p=>reviewPriority(p)<3).sort((a,b)=>reviewPriority(a)-reviewPriority(b)))}</>}
+ {page==='Analytics'&&<section><h2>Mastery distribution</h2>{[null,0,1,2,3,4,5].map(m=>{const n=rows.filter(p=>p.mastery===m).length;return <div className="barrow" key={String(m)}><span>{m===null?'Unknown':'Level '+m}</span><progress max={rows.length} value={n}/><b>{n}</b></div>})}<h2>Documented practice history</h2>{[...history,...local].map(a=><p key={a.id}>{a.date||'Date unknown'} · LC {a.problemId} · {a.lesson}</p>)}</section>}
+ {selected!==null&&<div className="overlay"><form className="dialog" onSubmit={e=>{e.preventDefault();record()}}><h2>Log LC {selected}</h2><label>Self-assessed mastery<select value={score} onChange={e=>setScore(Number(e.target.value))}>{['1 – Full solution needed','2 – Hints needed','3 – Independent with debugging','4 – Independent with explanation','5 – Timed with follow-ups'].map((x,i)=><option key={x} value={i+1}>{x}</option>)}</select></label><label>Lesson / mistake<textarea maxLength={2000} value={lesson} onChange={e=>setLesson(e.target.value)}/></label><div className="actions"><button type="button" onClick={()=>setSelected(null)}>Cancel</button><button type="submit">Save practice</button></div></form></div>}
+ </main></div>
+}
+createRoot(document.getElementById('root')!).render(<App/>)
