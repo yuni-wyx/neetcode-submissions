@@ -1,9 +1,11 @@
 {
   "catalogTotal": 150,
   "catalogCovered": 61,
-  "syncedFiles": 103,
-  "syncedSlugs": 61,
-  "unmappedSlugs": [],
+  "syncedFiles": 104,
+  "syncedSlugs": 62,
+  "unmappedSlugs": [
+    "kth-largest-integer-in-a-stream"
+  ],
   "categories": [
     {
       "category": "Arrays & Hashing",

@@ -81,7 +81,7 @@ Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io
 
 <!-- tracker-stats:start -->
 
-**61/150 catalog problems · 103 synced files · 61 synced slugs**
+**61/150 catalog problems · 104 synced files · 62 synced slugs**
 
 | Category | Covered | Submissions |
 |---|---:|---:|
@@ -104,6 +104,6 @@ Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io
 | Math & Geometry | 0/8 | 0 |
 | Bit Manipulation | 0/7 | 0 |
 
-Unmapped slugs: none
+Unmapped slugs: kth-largest-integer-in-a-stream
 
 <!-- tracker-stats:end -->
